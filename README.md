@@ -1,9 +1,8 @@
-<h2>💼 项目</h2>
+<h2>💼 Tiddlywiki 项目</h2>
 <table>
   <thead align="center">
     <tr>
       <th>项目</th>
-      <th>Github</th>
       <th>简述</th>
       <th>技术</th>
       <th>成就</th>
@@ -16,9 +15,6 @@
         tiddlywiki-starter-kit</a>
       </th>
       <th>
-        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit" target="_blank">Github</a>
-      </th>
-      <th>
       📦 使用 tiddlywiki 搭建的本地优先的笔记软件</th>
       <th>
         <img src="https://img.shields.io/badge/TiddlyWiki5-black?style=flat-square&logo=tiddlywiki&logoColor=white" alt="badge">
@@ -27,6 +23,40 @@
       </th>
       <th>
         <img src="https://img.shields.io/github/stars/oeyoews/tiddlywiki-starter-kit?style=flat-square" alt="badge">
+      </th>
+    </tr>
+  </tbody>
+</table>
+<h2>🧩 Tiddlywiki 插件</h2>
+<table>
+  <thead align="center">
+    <tr>
+      <th>插件</th>
+      <th>简述</th>
+      <th>在线地址</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-pwa" target="_blank">
+        neotw-pwa</a>
+      </th>
+      <th>
+      📦 让你的TiddlyWiki网页像app一样启动</th>
+      <th>
+        <a href="https://tiddlywiki-starter-kit.vercel.app/%24%3A%2Fplugins%2Foeyoews%2Fneotw-pwa" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-homepage" target="_blank">
+        neotw-homepage</a>
+      </th>
+      <th>
+      🏚️ tiddlywiki 主页展示</th>
+      <th>
+        <a href="https://tiddlywiki-starter-kit.vercel.app/%24%3A%2Fplugins%2Foeyoews%2Fneotw-homepage" target="_blank">Online</a>
       </th>
     </tr>
   </tbody>

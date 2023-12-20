@@ -5,15 +5,15 @@ const createGitHubURL = (repo) => `https://github.com/oeyoews/${repo}`;
 const createGitHubStarURL = (repo) =>
   `https://img.shields.io/github/stars/oeyoews/${repo}?style=flat-square`;
 
-const data = {
-  plugins: [
-    {
-      name: '',
-      desc: '',
-      github: '',
-      online: '',
-    },
-  ],
+const pluginBaseURL = '$:/plugins/oeyoews/';
+const createGitHubPluginURL = (repo) =>
+  `https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/${repo}`;
+const createPluginOnlineURL = (repo) =>
+  `https://tiddlywiki-starter-kit.vercel.app/${encodeURIComponent(
+    pluginBaseURL + repo
+  )}`;
+
+module.exports = {
   projects: [
     {
       logo: '📦',
@@ -24,7 +24,20 @@ const data = {
       badges: [createGitHubStarURL('tiddlywiki-starter-kit')],
     },
   ],
+  plugins: [
+    {
+      logo: '📦',
+      name: 'neotw-pwa',
+      desc: '让你的TiddlyWiki网页像app一样启动',
+      github: createGitHubPluginURL('neotw-pwa'),
+      online: createPluginOnlineURL('neotw-pwa'),
+    },
+    {
+      logo: '🏚️',
+      name: 'neotw-homepage',
+      desc: 'tiddlywiki 主页展示',
+      github: createGitHubPluginURL('neotw-homepage'),
+      online: createPluginOnlineURL('neotw-homepage'),
+    },
+  ],
 };
-
-// 导出 JavaScript 对象
-module.exports = data;
