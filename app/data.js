@@ -9,7 +9,7 @@ const pluginBaseURL = '$:/plugins/oeyoews/';
 const createGitHubPluginURL = (repo) =>
   `https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/${repo}`;
 const createPluginOnlineURL = (repo) =>
-  `https://tiddlywiki-starter-kit.vercel.app/${encodeURIComponent(
+  `https://tiddlywiki-starter-kit.vercel.app/#${encodeURIComponent(
     pluginBaseURL + repo
   )}`;
 
@@ -38,6 +38,21 @@ module.exports = {
       desc: 'tiddlywiki 主页展示',
       github: createGitHubPluginURL('neotw-homepage'),
       online: createPluginOnlineURL('neotw-homepage'),
+    },
+    {
+      logo: '🔔',
+      name: 'notify',
+      desc: '通知提示插件',
+      github: createGitHubPluginURL('notify'),
+      online: createPluginOnlineURL('notify'),
+    },
+    {
+      logo: '😎',
+      name: 'tiddlywiki-tailwindcss-plus',
+      desc: '在tiddlywiki中使用tailwindcss',
+      desc: '不用再担心tiddlywiki的样式冲突了',
+      github: createGitHubPluginURL('tiddlywiki-tailwindcss-plus'),
+      online: createPluginOnlineURL('tiddlywiki-tailwindcss-plus'),
     },
   ],
 };
