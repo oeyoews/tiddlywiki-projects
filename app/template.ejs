@@ -1,0 +1,84 @@
+<h2>💼 Tiddlywiki 项目</h2>
+
+<table>
+	<thead align="center">
+		<tr>
+			<th>项目</th>
+			<th>Github</th>
+			<th>简述</th>
+			<th>技术</th>
+			<th>成就</th>
+		</tr>
+	</thead>
+
+	<tbody align="left">
+		<% projects.forEach(function(project){ %>
+			<tr>
+				<th>
+					<a href="<%= project.preview || project.github %>" target="_blank">
+						<%= project.repo %>
+					</a>
+				</th>
+				<th>
+					<a href="<%= project.github %>" target="_blank">Github</a>
+				</th>
+				<th>
+					<%= project.logo %>
+						<%= project.desc %>
+				</th>
+				<th>
+					<% project.techList.forEach(function(tech){ %>
+						<img src="<%- tech %>" alt="badge">
+						<% }); %>
+				</th>
+				<th>
+					<% project.badges.forEach(function(badge){ %>
+						<img src="<%- badge %>" alt="badge">
+						<% }); %>
+				</th>
+			</tr>
+			<% }); %>
+	</tbody>
+</table>
+
+<!-- <h2> Tiddlywiki 插件</h2> -->
+
+<!-- <table>
+	<thead align="center">
+		<tr>
+			<th>插件</th>
+			<th>Github</th>
+			<th>简述</th>
+			<th>在线地址</th>
+		</tr>
+	</thead>
+
+	<tbody align="left">
+		<% projects.forEach(function(project){ %>
+			<tr>
+				<th>
+					<a href="<%= project.preview || project.github %>" target="_blank">
+						<%= project.repo %>
+					</a>
+				</th>
+				<th>
+					<a href="<%= project.github %>" target="_blank">Github</a>
+				</th>
+				<th>
+					<%= project.logo %>
+						<%= project.desc %>
+				</th>
+				<th>
+					<% project.techList.forEach(function(tech){ %>
+						<img src="<%- tech %>" alt="badge">
+						<% }); %>
+				</th>
+				<th>
+					<% project.badges.forEach(function(badge){ %>
+						<img src="<%- badge %>" alt="badge">
+						<% }); %>
+				</th>
+			</tr>
+			<% }); %>
+	</tbody>
+</table> -->
