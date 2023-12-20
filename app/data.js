@@ -24,6 +24,7 @@ module.exports = {
       badges: [createGitHubStarURL('tiddlywiki-starter-kit')],
     },
   ],
+  // TODO: 在 tiddlywiki-starter-kit 自动构建这个数据; 或者后期晚上到那里
   plugins: [
     {
       logo: '📦',
