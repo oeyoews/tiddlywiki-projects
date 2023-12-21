@@ -1,4 +1,5 @@
-const badges = require('./badges');
+const badges = require('skill-badges').default;
+
 const chalk = require('chalk');
 
 const createGitHubURL = (repo) => `https://github.com/oeyoews/${repo}`;
@@ -13,12 +14,14 @@ const createPluginOnlineURL = (repo) =>
     pluginBaseURL + repo
   )}`;
 
+const packages = [];
+
 const projects = [
   {
     logo: '📦',
     repo: 'tiddlywiki-starter-kit',
     desc: '使用 tiddlywiki 搭建的本地优先的笔记软件',
-    techList: [badges.TiddlyWiki5, badges.NodeJS, badges.TailWindCss],
+    techList: [badges.TiddlyWiki5, badges.NodeJS, badges.TailwindCSS],
   },
 ];
 

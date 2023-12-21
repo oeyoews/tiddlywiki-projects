@@ -14,6 +14,9 @@ dependencies:
   html-prettify:
     specifier: ^1.0.7
     version: 1.0.7
+  skill-badges:
+    specifier: ^1.0.2
+    version: 1.0.2
 
 packages:
 
@@ -113,6 +116,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
+    dev: false
+
+  /skill-badges@1.0.2:
+    resolution: {integrity: sha512-LweilN2PMhSINEMPEjhRETxBDOef1NEptBjpH7zx4oAFihn+gNfBPEtlcZwjaQbJAwadeuSszeTTYQZBVHZTWg==}
     dev: false
 
   /supports-color@7.2.0:
