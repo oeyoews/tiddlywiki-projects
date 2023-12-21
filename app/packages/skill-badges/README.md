@@ -1,6 +1,6 @@
 ## Introduce
 
-> A collection of skill badges and type safe icons. zero dependency, only 2kb.
+> A collection of skill badges and type safe icons.
 
 ## Usage
 
@@ -17,7 +17,7 @@ console.log(badges.JavaScript);
       <th>Icon</th>
     </tr>
   </thead>
-  <tbody align="center">
+  <tbody align="left">
     <tr>
       <th>
       HTML5</th>
@@ -163,6 +163,13 @@ console.log(badges.JavaScript);
       Vercel</th>
       <th align="center">
         <img src="https://img.shields.io/badge/Vercel-black?style=flat-square&logo=vercel&logoColor=white"  />
+      </th>
+    </tr>
+    <tr>
+      <th>
+      Linux</th>
+      <th align="center">
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"  />
       </th>
     </tr>
   </tbody>

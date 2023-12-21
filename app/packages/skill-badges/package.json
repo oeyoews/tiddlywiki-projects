@@ -9,7 +9,7 @@
     "build": "ncc build ./index.ts -o ./dist/ --minify --no-cache",
     "prepublish": "npm run build --dry",
     "sync": "cnpm sync",
-    "test": "node ./app/index.js"
+    "preview": "ts-node ./app/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,14 +19,14 @@
     "README.md"
   ],
   "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^20.10.5",
     "@vercel/ncc": "^0.38.1",
+    "chalk": "^4.1.2",
     "cnpm": "^9.3.2",
     "ejs": "^3.1.9",
     "html-prettify": "^1.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "chalk": "^4.1.2"
   }
 }

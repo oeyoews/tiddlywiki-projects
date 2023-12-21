@@ -8,7 +8,7 @@ interface BadgeInfo extends BadgeInfoBase {
 	subject: string;
 }
 
-type BadgeNames = 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
+type BadgeNames = 'Linux' | 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
 type BadgeData = {
 	[K in BadgeNames]: BadgeInfoBase;
 };
@@ -50,7 +50,8 @@ const badgeData: BadgeData = {
 	Rust: { color: '000000', logo: 'rust', logoColor: 'white' },
 	Docker: { color: '2496ED', logo: 'docker', logoColor: 'white' },
 	Kubernetes: { color: '326CE5', logo: 'kubernetes', logoColor: 'white' },
-	Vercel: { color: 'black', logo: 'vercel', logoColor: 'white' }
+	Vercel: { color: 'black', logo: 'vercel', logoColor: 'white' },
+	Linux: { color: 'FCC624', logo: 'linux', logoColor: 'black' },
 }
 
 const badges = {} as Badges;
