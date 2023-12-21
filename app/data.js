@@ -14,8 +14,6 @@ const createPluginOnlineURL = (repo) =>
     pluginBaseURL + repo
   )}`;
 
-const packages = [];
-
 const projects = [
   {
     logo: '📦',
