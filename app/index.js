@@ -4,6 +4,10 @@ const path = require('path');
 const prettify = require('html-prettify');
 const chalk = require('chalk');
 
+ejs.delimiter = '%';
+ejs.openDelimiter = '<';
+ejs.closeDelimiter = '>';
+
 const data = require('./data');
 
 const templateFile = path.join(__dirname, './template.ejs');
