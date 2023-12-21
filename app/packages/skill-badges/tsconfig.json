@@ -10,6 +10,7 @@
 	},
 	"exclude": [
 		"dist",
-		"test"
+		"test",
+		"app"
 	]
 }
