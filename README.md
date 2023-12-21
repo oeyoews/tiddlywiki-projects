@@ -16,12 +16,12 @@
       </th>
       <th>
       📦 使用 tiddlywiki 搭建的本地优先的笔记软件</th>
-      <th>
+      <th align="center">
         <img src="https://img.shields.io/badge/TiddlyWiki5-black?style=flat-square&logo=tiddlywiki&logoColor=white" alt="badge">
         <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="badge">
         <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="badge">
       </th>
-      <th>
+      <th align="center">
         <img src="https://img.shields.io/github/stars/oeyoews/tiddlywiki-starter-kit?style=flat-square" alt="badge">
       </th>
     </tr>
@@ -92,4 +92,4 @@
     </tr>
   </tbody>
 </table>
-<!-- generated at 2023/12/21 12:21:19 -->
+<!-- generated at 2023/12/21 12:22:12 -->
