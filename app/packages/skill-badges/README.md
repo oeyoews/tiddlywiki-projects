@@ -1,6 +1,14 @@
-<h2>Usage</h2>
-<pre><code>
-const badges = require('skill-badges').default; console.log(badges.JavaScript);</code></pre>
+## Introduce
+
+> A collection of skill badges and type safe icons.
+
+## Usage
+
+```js
+const badges = require('skill-badges').default;
+console.log(badges.JavaScript);
+```
+
 <h2>Icons</h2>
 <table>
   <thead align="center">
