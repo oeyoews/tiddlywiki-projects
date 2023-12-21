@@ -14,7 +14,6 @@ const usage = fs.readFileSync(usageFilePath, 'utf8');
 console.log(chalk.cyan('Generating README.md...'));
 
 
-
 (async () => {
 	const template = fs.readFileSync(templateFile, 'utf8');
 

@@ -9,12 +9,9 @@ interface BadgeInfo extends BadgeInfoBase {
 }
 
 type BadgeNames = 'ArchLinux' | 'NuxtJS' | 'Vite' | 'Vim' | 'Neovim' | 'Chrome' | 'NPM' | 'Linux' | 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
-type BadgeData = {
-	[K in BadgeNames]: BadgeInfoBase;
-};
-type Badges = {
-	[K in BadgeNames]: string;
-};
+
+type BadgeData = Record<BadgeNames, BadgeInfoBase>;
+type Badges = Record<BadgeNames, string>;
 
 
 const createBadgeURL = ({
@@ -65,9 +62,10 @@ const badges = {} as Badges;
 
 Object.keys(badgeData).forEach((key: string) => {
 	badges[key as BadgeNames] = createBadgeURL({
-		subject: key as BadgeNames,
+		subject: key,
 		...badgeData[key as BadgeNames]
 	});
 });
 
 export default badges
+export type { BadgeNames }
