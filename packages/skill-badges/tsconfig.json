@@ -21,7 +21,10 @@
 		"node_modules/"
 	],
 	"include": [
-		"types.d.ts"
+		"src/**/*.ts",
+		"types/**/*.d.ts",
+		"types.d.ts",
+		"index.ts"
 	],
 	"ts-node": {
 		"files": true,

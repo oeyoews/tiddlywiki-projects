@@ -1,5 +1,3 @@
-import { BadgeInfo, BadgeInfoBase } from './types';
-
 const icons = [
   'Angular',
   'ArchLinux',

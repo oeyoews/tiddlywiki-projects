@@ -1,9 +1,9 @@
-export interface BadgeInfoBase {
+interface BadgeInfoBase {
   color: string;
   logo: string;
   logoColor: string;
 }
 
-export interface BadgeInfo extends BadgeInfoBase {
+interface BadgeInfo extends BadgeInfoBase {
   subject: string;
 }
