@@ -1,6 +1,6 @@
 {
   "name": "skill-badges",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,13 @@
     "sync": "cnpm sync",
     "preview": "ts-node ./app/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "icon",
+    "typescript",
+    "skill",
+    "badge",
+    "shields"
+  ],
   "author": "",
   "license": "MIT",
   "files": [
