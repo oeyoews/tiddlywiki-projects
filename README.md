@@ -33,6 +33,7 @@
     <tr>
       <th>插件</th>
       <th>简述</th>
+      <th>类别</th>
       <th>在线地址</th>
     </tr>
   </thead>
@@ -42,8 +43,8 @@
         <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-pwa" target="_blank">
         neotw-pwa</a>
       </th>
-      <th>
-      📦 让你的TiddlyWiki网页像app一样启动</th>
+      <th>📦 让你的TiddlyWiki网页像app一样启动</th>
+      <th>pwa</th>
       <th>
         <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-pwa" target="_blank">Online</a>
       </th>
@@ -56,6 +57,8 @@
       <th>
       🏚️ tiddlywiki 主页展示</th>
       <th>
+      homepage</th>
+      <th>
         <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-homepage" target="_blank">Online</a>
       </th>
     </tr>
@@ -66,6 +69,8 @@
       </th>
       <th>
       🔔 通知提示插件</th>
+      <th>
+      notice</th>
       <th>
         <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fnotify" target="_blank">Online</a>
       </th>
@@ -78,9 +83,11 @@
       <th>
       😎 不用再担心tiddlywiki的样式冲突了</th>
       <th>
+      style</th>
+      <th>
         <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Ftiddlywiki-tailwindcss-plus" target="_blank">Online</a>
       </th>
     </tr>
   </tbody>
 </table>
-<!-- generated at 2023/12/21 12:14:49 -->
+<!-- generated at 2023/12/21 12:18:17 -->

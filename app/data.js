@@ -1,4 +1,5 @@
 const badges = require('./badges');
+const chalk = require('chalk');
 
 const createGitHubURL = (repo) => `https://github.com/oeyoews/${repo}`;
 const createGitHubStarURL = (repo) =>
@@ -27,23 +28,30 @@ const plugins = [
     logo: '📦',
     name: 'neotw-pwa',
     desc: '让你的TiddlyWiki网页像app一样启动',
+    category: 'pwa',
   },
   {
     logo: '🏚️',
     name: 'neotw-homepage',
     desc: 'tiddlywiki 主页展示',
+    category: 'homepage',
   },
   {
     logo: '🔔',
     name: 'notify',
     desc: '通知提示插件',
+    category: 'notice',
   },
   {
     logo: '😎',
     name: 'tiddlywiki-tailwindcss-plus',
     desc: '不用再担心tiddlywiki的样式冲突了',
+    category: 'style',
   },
 ];
+
+// generate plugins count
+console.log(chalk.cyan('📦 plugins count:'), plugins.length);
 
 module.exports = {
   projects: projects.map((project) => ({
