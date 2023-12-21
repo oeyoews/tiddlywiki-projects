@@ -8,7 +8,7 @@ interface BadgeInfo extends BadgeInfoBase {
 	subject: string;
 }
 
-type BadgeNames = 'Linux' | 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
+type BadgeNames = 'ArchLinux' | 'NuxtJS' | 'Vite' | 'Vim' | 'Neovim' | 'Chrome' | 'NPM' | 'Linux' | 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
 type BadgeData = {
 	[K in BadgeNames]: BadgeInfoBase;
 };
@@ -30,6 +30,13 @@ const createBadgeURL = ({
 };
 
 const badgeData: BadgeData = {
+	ArchLinux: { color: 'blue', logo: 'arch-linux', logoColor: 'white' },
+	NuxtJS: { color: '00C58E', logo: 'nuxt.js', logoColor: 'white' },
+	Vite: { color: '2F74C0', logo: 'vite', logoColor: 'white' },
+	Vim: { color: '007ACC', logo: 'vim', logoColor: 'white' },
+	Neovim: { color: '2E8B57', logo: 'neovim', logoColor: 'white' },
+	Chrome: { color: '0078D7', logo: 'google-chrome', logoColor: 'white' },
+	NPM: { color: 'C12127', logo: 'npm', logoColor: 'white' },
 	HTML5: { color: 'E34F26', logo: 'html5', logoColor: 'white' },
 	JavaScript: { color: 'F7DF1E', logo: 'javascript', logoColor: 'black' },
 	CSS3: { color: '1572B6', logo: 'css3', logoColor: 'white' },
