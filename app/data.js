@@ -13,47 +13,49 @@ const createPluginOnlineURL = (repo) =>
     pluginBaseURL + repo
   )}`;
 
+const projects = [
+  {
+    logo: '📦',
+    repo: 'tiddlywiki-starter-kit',
+    desc: '使用 tiddlywiki 搭建的本地优先的笔记软件',
+    techList: [badges.TiddlyWiki5, badges.NodeJS, badges.TailWindCss],
+  },
+];
+
+// TODO: 在 tiddlywiki-starter-kit 自动构建这个数据; 或者后期晚上到那里
+const plugins = [
+  {
+    logo: '📦',
+    name: 'neotw-pwa',
+    desc: '让你的TiddlyWiki网页像app一样启动',
+  },
+  {
+    logo: '🏚️',
+    name: 'neotw-homepage',
+    desc: 'tiddlywiki 主页展示',
+  },
+  {
+    logo: '🔔',
+    name: 'notify',
+    desc: '通知提示插件',
+  },
+  {
+    logo: '😎',
+    name: 'tiddlywiki-tailwindcss-plus',
+    desc: '在tiddlywiki中使用tailwindcss',
+    desc: '不用再担心tiddlywiki的样式冲突了',
+  },
+];
+
 module.exports = {
-  projects: [
-    {
-      logo: '📦',
-      repo: 'tiddlywiki-starter-kit',
-      desc: '使用 tiddlywiki 搭建的本地优先的笔记软件',
-      github: createGitHubURL('tiddlywiki-starter-kit'),
-      techList: [badges.TiddlyWiki5, badges.NodeJS, badges.TailWindCss],
-      badges: [createGitHubStarURL('tiddlywiki-starter-kit')],
-    },
-  ],
-  // TODO: 在 tiddlywiki-starter-kit 自动构建这个数据; 或者后期晚上到那里
-  plugins: [
-    {
-      logo: '📦',
-      name: 'neotw-pwa',
-      desc: '让你的TiddlyWiki网页像app一样启动',
-      github: createGitHubPluginURL('neotw-pwa'),
-      online: createPluginOnlineURL('neotw-pwa'),
-    },
-    {
-      logo: '🏚️',
-      name: 'neotw-homepage',
-      desc: 'tiddlywiki 主页展示',
-      github: createGitHubPluginURL('neotw-homepage'),
-      online: createPluginOnlineURL('neotw-homepage'),
-    },
-    {
-      logo: '🔔',
-      name: 'notify',
-      desc: '通知提示插件',
-      github: createGitHubPluginURL('notify'),
-      online: createPluginOnlineURL('notify'),
-    },
-    {
-      logo: '😎',
-      name: 'tiddlywiki-tailwindcss-plus',
-      desc: '在tiddlywiki中使用tailwindcss',
-      desc: '不用再担心tiddlywiki的样式冲突了',
-      github: createGitHubPluginURL('tiddlywiki-tailwindcss-plus'),
-      online: createPluginOnlineURL('tiddlywiki-tailwindcss-plus'),
-    },
-  ],
+  projects: projects.map((project) => ({
+    ...project,
+    github: createGitHubURL(project.repo),
+    badges: [createGitHubStarURL(project.repo)],
+  })),
+  plugins: plugins.map((plugin) => ({
+    ...plugin,
+    github: createGitHubPluginURL(plugin.name),
+    online: createPluginOnlineURL(plugin.name),
+  })),
 };
