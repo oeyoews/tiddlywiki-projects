@@ -6,11 +6,28 @@
 		"strict": true,
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
-		"skipLibCheck": false
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		}
 	},
 	"exclude": [
-		"dist",
-		"test",
-		"app"
-	]
+		"dist/",
+		"test/",
+		"app/",
+		"node_modules/"
+	],
+	"include": [
+		"types.d.ts"
+	],
+	"ts-node": {
+		"files": true,
+		// Do not forget to `npm i -D tsconfig-paths`
+		"require": [
+			"tsconfig-paths/register"
+		]
+	},
 }
