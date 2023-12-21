@@ -1,4 +1,3 @@
-// 导入徽章信息
 const badges = require('./badges');
 
 const createGitHubURL = (repo) => `https://github.com/oeyoews/${repo}`;
