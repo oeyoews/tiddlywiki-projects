@@ -53,15 +53,15 @@
     </tr>
     <tr>
       <th>
-        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/nprogress" target="_blank">
-        nprogress</a>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-homepage" target="_blank">
+        neotw-homepage</a>
       </th>
       <th>
-      🔄 在tiddlywiki中使用nprogress</th>
+      🏚️ tiddlywiki 主页展示</th>
       <th align="center">
-      ui</th>
+      homepage</th>
       <th align="center">
-        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fnprogress" target="_blank">Online</a>
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-homepage" target="_blank">Online</a>
       </th>
     </tr>
     <tr>
@@ -105,19 +105,6 @@
     </tr>
     <tr>
       <th>
-        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-homepage" target="_blank">
-        neotw-homepage</a>
-      </th>
-      <th>
-      🏚️ tiddlywiki 主页展示</th>
-      <th align="center">
-      homepage</th>
-      <th align="center">
-        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-homepage" target="_blank">Online</a>
-      </th>
-    </tr>
-    <tr>
-      <th>
         <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/notify" target="_blank">
         notify</a>
       </th>
@@ -127,6 +114,19 @@
       notice</th>
       <th align="center">
         <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fnotify" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/nprogress" target="_blank">
+        nprogress</a>
+      </th>
+      <th>
+      🔄 在tiddlywiki中使用nprogress</th>
+      <th align="center">
+      ui</th>
+      <th align="center">
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fnprogress" target="_blank">Online</a>
       </th>
     </tr>
     <tr>
@@ -144,4 +144,4 @@
     </tr>
   </tbody>
 </table>
-<!-- generated at 2023/12/21 12:45:16 -->
+<!-- generated at 2023/12/21 12:47:39 -->

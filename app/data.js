@@ -83,9 +83,11 @@ module.exports = {
     github: createGitHubURL(project.repo),
     badges: [createGitHubStarURL(project.repo)],
   })),
-  plugins: plugins.map((plugin) => ({
-    ...plugin,
-    github: createGitHubPluginURL(plugin.name),
-    online: createPluginOnlineURL(plugin.name),
-  })),
+  plugins: plugins
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((plugin) => ({
+      ...plugin,
+      github: createGitHubPluginURL(plugin.name),
+      online: createPluginOnlineURL(plugin.name),
+    })),
 };
