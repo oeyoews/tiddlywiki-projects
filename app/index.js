@@ -17,8 +17,6 @@ const outputPath = path.join(__dirname, '../README.md');
   });
 
   let prettyHtml = prettify(html);
-  prettyHtml += `
-<!-- generated at ${new Date().toLocaleString()} -->`;
 
   fs.writeFileSync(outputPath, prettyHtml);
 })().then(() => {

@@ -78,6 +78,7 @@ const plugins = [
 console.log(chalk.cyan('📦 plugins count:'), plugins.length);
 
 module.exports = {
+  date: new Date().toLocaleString(),
   projects: projects.map((project) => ({
     ...project,
     github: createGitHubURL(project.repo),
