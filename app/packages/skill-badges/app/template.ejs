@@ -7,6 +7,23 @@ console.log(badges.JavaScript);
 
 <h2>Icons</h2>
 
-<% for (const key in badges) { %>
-	<img src="<%- badges[key] %>" />
-	<% } %>
+<table>
+	<thead align="center">
+		<tr>
+			<th>Name</th>
+			<th>Icon</th>
+		</tr>
+	</thead>
+	<tbody align="center">
+		<% for (const key in badges) { %>
+			<tr>
+				<th>
+					<%- key %>
+				</th>
+				<th align="center">
+					<img src="<%- badges[key] %>" />
+				</th>
+			</tr>
+			<% } %>
+	</tbody>
+</table>
