@@ -25,6 +25,30 @@ const projects = [
 // TODO: 在 tiddlywiki-starter-kit 自动构建这个数据; 或者后期晚上到那里
 const plugins = [
   {
+    logo: '📊',
+    name: 'echarts-addons',
+    desc: 'echarts addons',
+    category: 'charts',
+  },
+  {
+    logo: '🔄',
+    name: 'nprogress',
+    desc: '在tiddlywiki中使用nprogress',
+    category: 'ui',
+  },
+  {
+    logo: '😊',
+    name: 'neotw-icons',
+    desc: 'iconify 图标库, 100+图标集合',
+    category: 'icon',
+  },
+  {
+    logo: '🎶',
+    name: 'neotw-music-with-howler',
+    desc: '使用howler写的音乐播放器',
+    category: 'music',
+  },
+  {
     logo: '📦',
     name: 'neotw-pwa',
     desc: '让你的TiddlyWiki网页像app一样启动',

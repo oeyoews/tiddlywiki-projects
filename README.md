@@ -40,6 +40,58 @@
   <tbody align="left">
     <tr>
       <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/echarts-addons" target="_blank">
+        echarts-addons</a>
+      </th>
+      <th>
+      📊 echarts addons</th>
+      <th align="center">
+      charts</th>
+      <th align="center">
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fecharts-addons" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/nprogress" target="_blank">
+        nprogress</a>
+      </th>
+      <th>
+      🔄 在tiddlywiki中使用nprogress</th>
+      <th align="center">
+      ui</th>
+      <th align="center">
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fnprogress" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-icons" target="_blank">
+        neotw-icons</a>
+      </th>
+      <th>
+      😊 iconify 图标库, 100+图标集合</th>
+      <th align="center">
+      icon</th>
+      <th align="center">
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-icons" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-music-with-howler" target="_blank">
+        neotw-music-with-howler</a>
+      </th>
+      <th>
+      🎶 使用howler写的音乐播放器</th>
+      <th align="center">
+      music</th>
+      <th align="center">
+        <a href="https://tiddlywiki-starter-kit.vercel.app/#%24%3A%2Fplugins%2Foeyoews%2Fneotw-music-with-howler" target="_blank">Online</a>
+      </th>
+    </tr>
+    <tr>
+      <th>
         <a href="https://github.com/oeyoews/tiddlywiki-starter-kit/tree/main/plugins/oeyoews/neotw-pwa" target="_blank">
         neotw-pwa</a>
       </th>
@@ -92,4 +144,4 @@
     </tr>
   </tbody>
 </table>
-<!-- generated at 2023/12/21 12:22:12 -->
+<!-- generated at 2023/12/21 12:45:16 -->
