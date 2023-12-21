@@ -120,14 +120,14 @@ console.log(badges.JavaScript);
       <th>
       Java</th>
       <th align="center">
-        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"  />
+        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"  />
       </th>
     </tr>
     <tr>
       <th>
       CSharp</th>
       <th align="center">
-        <img src="https://img.shields.io/badge/CSharp-239120?style=flat-square&logo=c-sharp&logoColor=white"  />
+        <img src="https://img.shields.io/badge/CSharp-239120?style=flat-square&logo=c%23&logoColor=white"  />
       </th>
     </tr>
     <tr>
