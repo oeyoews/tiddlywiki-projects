@@ -1,6 +1,6 @@
 ## Introduce
 
-> A collection of skill badges and type safe icons.
+> A collection of skill badges and type safe icons. zero dependency, only 2kb.
 
 ## Usage
 
