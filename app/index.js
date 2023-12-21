@@ -16,9 +16,7 @@ const outputPath = path.join(__dirname, '../README.md');
     ...data,
   });
 
-  let prettyHtml = prettify(html);
-
-  fs.writeFileSync(outputPath, prettyHtml);
+  fs.writeFileSync(outputPath, prettify(html));
 })().then(() => {
   console.log(chalk.bold.green('README.md generated successfully!'));
 });
