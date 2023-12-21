@@ -1,3 +1,2 @@
-import badges from "../index";
+import badges from "../dist/index";
 
-console.log(badges[0])

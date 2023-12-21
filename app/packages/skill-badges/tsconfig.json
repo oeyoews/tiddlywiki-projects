@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"declaration": true,
 		"target": "es2019",
 		"moduleResolution": "node",
 		"strict": true,
@@ -8,6 +9,7 @@
 		"skipLibCheck": false
 	},
 	"exclude": [
-		"dist"
+		"dist",
+		"test"
 	]
 }
