@@ -13,8 +13,6 @@ const createBadgeURL = (
   )}&logoColor=${logoColor}`;
 };
 
-const baseURL = `https://img.shields.io/badge`;
-
 module.exports = {
   HTML: createBadgeURL('HTML5', 'E34F26', 'html5', 'white'),
   JavaScript: createBadgeURL('JavaScript', 'F7DF1E', 'javascript', 'black'),
