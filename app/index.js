@@ -6,15 +6,13 @@ const chalk = require('chalk');
 
 const data = require('./data');
 
-const tplPath = path.join(__dirname, './template.ejs');
+const templateFile = path.join(__dirname, './template.ejs');
 const outputPath = path.join(__dirname, '../README.md');
 
 (async () => {
-  const tplStr = fs.readFileSync(tplPath, 'utf8');
+  const template = fs.readFileSync(templateFile, 'utf8');
 
-  const html = ejs.render(tplStr, {
-    ...data,
-  });
+  const html = ejs.render(template, data);
 
   fs.writeFileSync(outputPath, prettify(html));
 })().then(() => {
