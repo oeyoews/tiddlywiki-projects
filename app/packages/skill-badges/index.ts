@@ -8,7 +8,7 @@ interface BadgeInfo extends BadgeInfoBase {
 	subject: string;
 }
 
-type BadgeNames = 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5';
+type BadgeNames = 'HTML5' | 'JavaScript' | 'CSS3' | 'NodeJS' | 'React' | 'Vue' | 'TypeScript' | 'TailwindCSS' | 'NextJS' | 'TiddlyWiki5' | 'Angular' | 'PHP' | 'Ruby' | 'Python' | 'Java' | 'CSharp' | 'Golang' | 'Rust' | 'Docker' | 'Kubernetes' | 'Vercel';
 type BadgeData = {
 	[K in BadgeNames]: BadgeInfoBase;
 };
@@ -40,6 +40,17 @@ const badgeData: BadgeData = {
 	TailwindCSS: { color: '38B2AC', logo: 'tailwindcss', logoColor: 'white' },
 	NextJS: { color: 'black', logo: 'next.js', logoColor: 'white' },
 	TiddlyWiki5: { color: 'black', logo: 'tiddlywiki', logoColor: 'white' },
+	Angular: { color: 'DD0031', logo: 'angular', logoColor: 'white' },
+	PHP: { color: '777BB4', logo: 'php', logoColor: 'white' },
+	Ruby: { color: 'CC342D', logo: 'ruby', logoColor: 'white' },
+	Python: { color: '3776AB', logo: 'python', logoColor: 'white' },
+	Java: { color: '007396', logo: 'java', logoColor: 'white' },
+	CSharp: { color: '239120', logo: 'c-sharp', logoColor: 'white' },
+	Golang: { color: '00ADD8', logo: 'go', logoColor: 'white' },
+	Rust: { color: '000000', logo: 'rust', logoColor: 'white' },
+	Docker: { color: '2496ED', logo: 'docker', logoColor: 'white' },
+	Kubernetes: { color: '326CE5', logo: 'kubernetes', logoColor: 'white' },
+	Vercel: { color: 'black', logo: 'vercel', logoColor: 'white' }
 }
 
 const badges = {} as Badges;
