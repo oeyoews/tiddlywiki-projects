@@ -41,7 +41,6 @@ const plugins = [
   {
     logo: '😎',
     name: 'tiddlywiki-tailwindcss-plus',
-    desc: '在tiddlywiki中使用tailwindcss',
     desc: '不用再担心tiddlywiki的样式冲突了',
   },
 ];
