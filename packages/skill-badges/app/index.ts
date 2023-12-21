@@ -3,7 +3,7 @@ import ejs from 'ejs';
 import path from 'path';
 import prettify from 'html-prettify';
 import chalk from 'chalk';
-import data from '../src/index';
+import data from '../index';
 
 const templateFile = path.join(__dirname, './template.ejs');
 const outputPath = path.join(__dirname, '../README.md');
