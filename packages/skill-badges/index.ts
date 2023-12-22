@@ -42,6 +42,7 @@ export const info = {
 
 // TODO: add check for icons, if has dumplicate use chalk to log
 // TODO: expose config option to support change style of badge
+// TODO: how to remove logoclor white
 
 export type BadgeNames = (typeof icons)[number];
 
