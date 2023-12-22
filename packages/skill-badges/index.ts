@@ -1,3 +1,5 @@
+import { version } from './package.json';
+
 export const icons = [
   'Angular',
   'ArchLinux',
@@ -32,6 +34,11 @@ export const icons = [
   'Vite',
   'Vue',
 ] as const;
+
+export const info = {
+  version,
+  total: icons.length,
+};
 
 // TODO: add check for icons, if has dumplicate use chalk to log
 // TODO: expose config option to support change style of badge
