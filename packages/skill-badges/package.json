@@ -1,6 +1,6 @@
 {
   "name": "skill-badges",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/oeyoews/tiddlywiki-projects",
   "description": "",
   "main": "dist/index.js",

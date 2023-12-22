@@ -5,5 +5,8 @@
 ```js
 // cjs
 const { icons, default: badges } = require('skill-badges');
-console.log(badges.JavaScript);
+// esm
+import badges, { icons } from '../dist/index.mjs';
+
+console.log(badges.JavaScript, `${icons}`);
 ```
