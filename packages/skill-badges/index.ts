@@ -31,6 +31,7 @@ export const icons = [
 ] as const;
 
 // TODO: add check for icons, if has dumplicate use chalk to log
+// TODO: expose config option to support change style of badge
 
 export type BadgeNames = (typeof icons)[number];
 

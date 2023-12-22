@@ -1,10 +1,9 @@
 ## Introduce
 
-> A collection of skill badges and type safe icons.
-
-## Usage
+> A collection of skill badges and type safe icons. support cjs esm and cdn
 
 ```js
-const badges = require('skill-badges').default;
+// cjs
+const { icons, default: badges } = require('skill-badges');
 console.log(badges.JavaScript);
 ```
