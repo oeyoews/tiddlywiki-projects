@@ -1,2 +1,2 @@
 // import badges from '../dist/index';
-const badges = require('../dist/index');
+const { icons } = require('../dist/index');

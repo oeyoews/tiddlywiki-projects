@@ -1,4 +1,4 @@
-const icons = [
+export const icons = [
   'Angular',
   'ArchLinux',
   'CSharp',
@@ -32,7 +32,7 @@ const icons = [
 
 // TODO: add check for icons, if has dumplicate use chalk to log
 
-type BadgeNames = (typeof icons)[number];
+export type BadgeNames = (typeof icons)[number];
 
 type BadgeData = Record<BadgeNames, BadgeInfoBase>;
 type Badges = Record<BadgeNames, string>;
@@ -204,4 +204,3 @@ Object.keys(badgeData).forEach((key: string) => {
 });
 
 export default badges;
-export type { BadgeNames };
