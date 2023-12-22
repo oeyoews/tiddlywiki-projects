@@ -51,6 +51,24 @@ console.log(badges.JavaScript, `${icons}`);
       </th>
     </tr>
     <tr>
+      <th>Elixir</th>
+      <th align="left">
+        <img src="https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white"  />
+      </th>
+    </tr>
+    <tr>
+      <th>Emacs</th>
+      <th align="left">
+        <img src="https://img.shields.io/badge/Emacs-7F5AB6?style=flat-square&logo=gnu-emacs&logoColor=white"  />
+      </th>
+    </tr>
+    <tr>
+      <th>ECharts</th>
+      <th align="left">
+        <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&logo=apache-echarts&logoColor=white"  />
+      </th>
+    </tr>
+    <tr>
       <th>Golang</th>
       <th align="left">
         <img src="https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white"  />
@@ -65,7 +83,7 @@ console.log(badges.JavaScript, `${icons}`);
     <tr>
       <th>Java</th>
       <th align="left">
-        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"  />
+        <img src="https://img.shields.io/badge/Java-437291?style=flat-square&logo=openjdk&logoColor=white"  />
       </th>
     </tr>
     <tr>
@@ -107,7 +125,7 @@ console.log(badges.JavaScript, `${icons}`);
     <tr>
       <th>Chrome</th>
       <th align="left">
-        <img src="https://img.shields.io/badge/Chrome-E7E7E7?style=flat-square&logo=google-chrome&logoColor=black"  />
+        <img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=google-chrome&logoColor=white"  />
       </th>
     </tr>
     <tr>
@@ -161,7 +179,7 @@ console.log(badges.JavaScript, `${icons}`);
     <tr>
       <th>TiddlyWiki5</th>
       <th align="left">
-        <img src="https://img.shields.io/badge/TiddlyWiki5-black?style=flat-square&logo=tiddlywiki&logoColor=white"  />
+        <img src="https://img.shields.io/badge/TiddlyWiki5-111111?style=flat-square&logo=tiddlywiki&logoColor=white"  />
       </th>
     </tr>
     <tr>

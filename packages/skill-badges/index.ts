@@ -5,6 +5,9 @@ export const icons = [
   'CSS3',
   'Chrome',
   'Docker',
+  'Elixir',
+  'Emacs',
+  'ECharts',
   'Golang',
   'HTML5',
   'Java',
@@ -73,6 +76,21 @@ const badgeData: BadgeData = {
     logo: 'docker',
     logoColor: 'white',
   },
+  Elixir: {
+    color: '4B275F',
+    logo: 'elixir',
+    logoColor: 'white',
+  },
+  Emacs: {
+    color: '7F5AB6',
+    logo: 'gnu-emacs',
+    logoColor: 'white',
+  },
+  ECharts: {
+    color: 'AA344D',
+    logo: 'apache-echarts',
+    logoColor: 'white',
+  },
   Golang: {
     color: '00ADD8',
     logo: 'go',
@@ -84,7 +102,7 @@ const badgeData: BadgeData = {
     logoColor: 'white',
   },
   Java: {
-    color: '007396',
+    color: '437291',
     logo: 'openjdk',
     logoColor: 'white',
   },
@@ -119,9 +137,9 @@ const badgeData: BadgeData = {
     logoColor: 'white',
   },
   Chrome: {
-    color: 'E7E7E7',
+    color: '4285F4',
     logo: 'google-chrome',
-    logoColor: 'black',
+    logoColor: 'white',
   },
   NPM: {
     color: 'C12127',
@@ -164,7 +182,7 @@ const badgeData: BadgeData = {
     logoColor: 'white',
   },
   TiddlyWiki5: {
-    color: 'black',
+    color: '111111',
     logo: 'tiddlywiki',
     logoColor: 'white',
   },
