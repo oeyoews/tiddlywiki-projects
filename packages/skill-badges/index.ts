@@ -1,5 +1,7 @@
 import { version } from './package.json';
 
+// @see-also https://github.com/evanw/esbuild/issues/2023
+
 export const icons = [
   'Angular',
   'ArchLinux',
@@ -221,7 +223,7 @@ const badgeData: BadgeData = {
   },
 };
 
-const badges = {} as Badges;
+export const badges = {} as Badges;
 
 Object.keys(badgeData).forEach((key: string) => {
   badges[key as BadgeNames] = createBadgeURL({
@@ -229,5 +231,3 @@ Object.keys(badgeData).forEach((key: string) => {
     ...badgeData[key as BadgeNames],
   });
 });
-
-export default badges;
