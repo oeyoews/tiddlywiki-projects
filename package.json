@@ -15,6 +15,6 @@
     "chalk": "v4",
     "ejs": "^3.1.9",
     "html-prettify": "^1.0.7",
-    "skill-badges": "1.3.1"
+    "skill-badges": "1.4.0"
   }
 }

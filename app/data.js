@@ -1,4 +1,4 @@
-const badges = require('skill-badges').default;
+const { badges } = require('skill-badges');
 
 const chalk = require('chalk');
 
