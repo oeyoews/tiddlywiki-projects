@@ -18,6 +18,11 @@ dependencies:
     specifier: 1.4.0
     version: 1.4.0
 
+devDependencies:
+  marked:
+    specifier: ^11.1.0
+    version: 11.1.0
+
 packages:
 
   /ansi-styles@4.3.0:
@@ -104,6 +109,12 @@ packages:
       filelist: 1.0.4
       minimatch: 3.1.2
     dev: false
+
+  /marked@11.1.0:
+    resolution: {integrity: sha512-fvKJWAPEafVj1dwGwcPI5mBB/0pvViL6NlCbNDG1HOIRwwAU/jeMoFxfbRLuirO1wRH7m4yPvBqD/O1wyWvayw==}
+    engines: {node: '>= 18'}
+    hasBin: true
+    dev: true
 
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}

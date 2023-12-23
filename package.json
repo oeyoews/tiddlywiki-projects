@@ -16,5 +16,8 @@
     "ejs": "^3.1.9",
     "html-prettify": "^1.0.7",
     "skill-badges": "1.4.0"
+  },
+  "devDependencies": {
+    "marked": "^11.1.0"
   }
 }
