@@ -21,6 +21,7 @@ const header = fs.readFileSync(headerFilePath, 'utf-8');
 
   const html = ejs.render(template, data);
 
+  // prettify 不支持md, 会自动把md的换行移除???
   fs.writeFileSync(outputPath, header + '\n' + prettify(html));
 })().then(() => {
   console.log(chalk.bold.green('README.md generated successfully!'));
