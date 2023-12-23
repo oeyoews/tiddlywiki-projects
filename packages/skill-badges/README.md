@@ -6,7 +6,7 @@
 // cjs
 const { icons, default: badges } = require('skill-badges');
 // esm
-import badges, { icons } from '../dist/index.mjs';
+import badges, { icons } from 'skill-badges';
 
 console.log(badges.JavaScript, `${icons}`);
 ```

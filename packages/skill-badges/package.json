@@ -1,9 +1,17 @@
 {
   "name": "skill-badges",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "homepage": "https://github.com/oeyoews/tiddlywiki-projects",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "tsup": {
     "entry": [
       "index.ts"
@@ -13,9 +21,8 @@
     "minify": true,
     "dts": true,
     "format": [
-      "esm",
       "cjs",
-      "iife"
+      "esm"
     ],
     "shims": true,
     "clean": true

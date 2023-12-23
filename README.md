@@ -1,4 +1,4 @@
-<!-- automatically generated at 2023/12/21 16:51:37 -->
+<!-- automatically generated at 2023/12/23 17:59:56 -->
 <!-- note: use lf not crlf in this file, otherwise this format not work -->
 <h2>💼 Tiddlywiki 项目</h2>
 <table>
@@ -19,7 +19,7 @@
       <th>
       📦 使用 tiddlywiki 搭建的本地优先的笔记软件</th>
       <th align="center">
-        <img src="https://img.shields.io/badge/TiddlyWiki5-black?style=flat-square&logo=tiddlywiki&logoColor=white" alt="badge">
+        <img src="https://img.shields.io/badge/TiddlyWiki5-111111?style=flat-square&logo=tiddlywiki&logoColor=white" alt="badge">
         <img src="https://img.shields.io/badge/NodeJS-43853D?style=flat-square&logo=node.js&logoColor=white" alt="badge">
         <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="badge">
       </th>
