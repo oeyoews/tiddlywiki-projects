@@ -1,4 +1,4 @@
-> 希望打造更加成熟的 tiddlywiki 生态圈, 以下是一些自己写的工具, 插件, 命令行等有关 tiddlywiki 的项目
+> 希望打造更加成熟的 tiddlywiki 生态圈，以下是一些自己写的工具，插件，命令行等有关 tiddlywiki 的项目
 
 ## TODO
 
@@ -11,7 +11,7 @@
 - [x] server
 - [x] dateset
 
-<!-- automatically generated at 2023/12/23 21:37:08 -->
+<!-- automatically generated at 2023/12/26 20:34:38 -->
 <!-- note: use lf not crlf in this file, otherwise this format not work -->
 <h2>💼 Tiddlywiki 项目</h2>
 <table>

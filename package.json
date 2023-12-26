@@ -1,4 +1,7 @@
 {
+  "workspaces": [
+    "packages/*"
+  ],
   "name": "oeyoews",
   "version": "1.0.0",
   "description": "",
@@ -15,7 +18,7 @@
     "chalk": "v4",
     "ejs": "^3.1.9",
     "html-prettify": "^1.0.7",
-    "skill-badges": "1.4.0"
+    "skill-badges": "workspace:*"
   },
   "devDependencies": {
     "marked": "^11.1.0"
