@@ -15,12 +15,11 @@
   "author": "oeyoews",
   "license": "MIT",
   "dependencies": {
-    "chalk": "v4",
     "ejs": "^3.1.9",
-    "html-prettify": "^1.0.7",
-    "skill-badges": "workspace:*"
+    "html-prettify": "^1.0.7"
   },
   "devDependencies": {
-    "marked": "^11.1.0"
+    "marked": "^11.1.0",
+    "skill-badges": "workspace:^"
   }
 }
